@@ -1,5 +1,7 @@
 package main
 
+import "dataset/DatabaseStorage"
+
 func main() {
-	database.Init()
+	DatabaseStorage.Init()
 }
